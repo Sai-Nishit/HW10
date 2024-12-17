@@ -1,14 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Sound Visualization</title>
+
+    <!-- Include p5.js -->
     <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
-    <script src="sketch.js"></script>
+
+    <!-- Include p5.sound.js -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/addons/p5.sound.js"></script>
+
+    <!-- Include sketch.js file -->
+    <script src="sketch.js" defer></script>
+
     <style>
       * {
         box-sizing: border-box;
       }
       html, body {
         margin: 0;
+        padding: 0;
+        height: 100%;
+        background: black;
       }
       canvas {
         display: block;
